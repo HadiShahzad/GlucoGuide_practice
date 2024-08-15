@@ -1,8 +1,8 @@
 import streamlit as st
 import anthropic
 
-# api_key = st.secrets["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"]
-api_key = "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"
+api_key = st.secrets["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"]
+# api_key = "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"
 
 # Function to call Claude AI API and get a personalized meal plan
 def get_meal_plan(api_key, fasting_sugar, pre_meal_sugar, post_meal_sugar, dietary_preferences):
